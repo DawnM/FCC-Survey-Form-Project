@@ -31,5 +31,5 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 ## Acknowledgments
 
-* [FreeCodeCamp]() for providing a great website to keep my skills honed while working on my FullStack Bootcamp
-
+* [FreeCodeCamp](https://learn.freecodecamp.org) for providing a great website to keep my skills honed while working on my FullStack Bootcamp
+* My wife - debug assistant extraordinaire!
