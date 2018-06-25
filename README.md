@@ -1,82 +1,34 @@
-# CV Website
+# Responsive Web Design Projects - Build a Survey Form
 
-This website will serve as my online resume, with recruiters and prospective employers as my primary target audience.  It will highlight the studies I have done in order to make a career change from administration and finance into web development, and touch on the industry experience I have gained in my career.  The information will be presented in the following pages:
-* About Me / Home
-* Studies
-* Skills
-* Work History
+**Objective:** Build a page that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
-## Features
+Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+*You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!*
 
-* Navigation on mobile devices is at the bottom of the screen for easy reach with a thumb. Expected audience here would be followers from my social networks.
-* Navigation on desktop or larger tablets is across the top, to fall in line with user expectations on those platforms. Expected audience here would be recruiters and prospective employers.
-* Information shown on smaller devices is more concise. This allows for better presentation, and should not impact the experience of the primary target audience.
+* User Story #1: I can see a title with id="title" in H1 sized text.
+* User Story #2: I can see a short explanation with id="description" in P sized text.
+* User Story #3: I can see a form with id="survey-form".
+* User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
+* User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
+* User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+* User Story #7: Inside the form, I can enter a number in a field with id="number".
+* User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
+* User Story #9: If I enter numbers outside the range of the number input, I will see an HTML5 validation error.
+* User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+* User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+* User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
+* User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
+* User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
+* User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
+* User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
-## Deployment
+*Remember to use the Read-Search-Ask method if you get stuck.*
 
-This website was created in Sublime text, and deployed via Github Pages using the default instructions for Github Pages.  No changes to the code or directory structure was required for successful deployment.
-
-## Testing
-
-As this is purely an HTML and CSS website, there was no automated testing.  The code was run on various devices, operating systems and browsers, at a variety of screen sizes, to ensure the site looked as intended across all resolutions.  I also asked friends and family of varying tech capabilities to test ease of use.
-
-### Devices:
-
-* iMac (running macOS High Sierra)
-* Gigabyte Netbook (running Windows 10)
-
-### Browsers:
-* Safari (desktop & mobile)
-* Microsoft Edge (desktop)
-* Chrome (desktop & mobile)
-* Firefox (desktop & mobile)
-* Firefox Focus (mobile)
-* Opera / Opera mini (desktop & mobile)
-* Brave (desktop & mobile)
-* Maxthon (desktop & mobile)
-* Vivaldi (desktop only)
-* Tor (mobile app)
-
-### Mobile Devices:
-* iPhone SE, running iOS 11.2.6
-* iPad Mini, running iOS 11.2.2
-* iPad Pro, running iOS 11.2.6
-* OnePlus One, running Android 7.1.2 (LineageOS)
-* Huawei P8 lite, running Android Marshmallow
-* Kindle Fire
-
-
-### Bugs Found:
-* Initially the nav links were nested inside button tags and this caused a conflict in the desktop version of Firefox only.  The button tags were removed, and the conflict was resolved.
-* Initially used flexbox for sizing the three panels on the studies page, as bootstrap wasn't looking the way I wanted it to. However I did not like that the third panel would be a larger than the first two at resolutions where it fell to a second row. So the page was reconfigured back to bootstrap to ensure panel width uniformity.
-* on iPhone 5 / SE (4 inch screens) the main content on the index page falls below the bottom nav bar, and will not scroll up for viewing.  This cannot be replicated on any other device or desktop browser, and therefore no solution has been found at this time.  This bug will remain until further resources can be devoted to it, as the site's target audience will most likely be accessing it via desktop browsers, and thus will not encounter the bug.
-
-## Built With
-
-* [HTML5](https://getbootstrap.com/docs/3.3/)
-* [CSS3](https://www.w3schools.com/css/)
-* [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/) - Used for the grid layout, nav bars, and panels
-* [Sublime Text](https://www.sublimetext.com) - text editor
-* [favic-o-matic](http://www.favicomatic.com) - automated favicon generation
-* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html?sdid=V6NZKW2K&mv=search&s_kwcid=AL!3085!3!247459081366!b!!g!!%2Billustrator%20%2Badobe&ef_id=WpAeRQAAAIfFvxhn:20180223135933:s) - nav icon and pie chart design
-
-## Contributing
-
-No contributors are permitted as the purpose of the site is to showcase my personal coding proficiency.
-
-## Versioning
-
-I use [GitHub](https://github.com) for versioning. For the versions available, see my [cv-website repo](https://github.com/DawnM/cv-website). 
-
-## Authors
+# Authors
 
 * **DawnM Calder-Murphy**
 
 ## Acknowledgments
 
-* Code Institute for the work history timeline lesson that I adapted for this site.
-* Yoni Lavi, my Code Institute mentor.
-* Bim Williams, Simen Daehlin, and many other Code Institute students who were always on hand for testing, critical feedback and help with any questions I had.
-* JP Pfeiffer, for assisting with content wording.
-* My wife, Coralize Calder-Murphy, for her proof reading skills, assistance in researching the code I needed to implement my ideas, and general support.
+* [FreeCodeCamp]() for providing a great website to keep my skills honed while working on my FullStack Bootcamp
 
